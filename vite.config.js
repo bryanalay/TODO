@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "https://bryanalay.github.io/TODO",
   plugins: [react()]
 })
