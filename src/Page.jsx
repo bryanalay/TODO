@@ -25,7 +25,7 @@ export const Page = () => {
   return (
     <div
       className={`grid place-items-center p-24 gap-y-4  ${
-        a ? "w-screen h-5/6" : "w-screen h-full"
+        a ? "w-screen h-screen" : "w-screen h-full"
       } bg-green-200 `}
     >
       <TodoCounter />
